@@ -1,0 +1,114 @@
+html{
+    margin:0;
+    padding:0;
+}
+body{
+    margin:0;
+    padding:0;
+}
+ul{
+	margin:0;
+	padding:0;
+}
+input[type='text'],select{
+	padding-left:10px;
+	font-size:12px;
+	height:25px;
+}
+select{
+	padding-left:5px;
+}
+option{
+	font-size:12px;
+	margin-bottom:10px;
+}
+
+.clearfix:before,.clearfix:after{
+	content:"";
+	display:table;
+}
+.clearfix:after{
+	clear:both;
+}
+.clearfix{ /*ÕÕ¹Ëie6*/
+	zoom:1;
+}
+.head_bg{
+	background-color: #0080FF;
+}
+/*******Ä£Äâtable***********/
+.table_head_bg{
+	background-color: #AAAAAA;
+}
+.table_head{
+	height:28px;
+}
+.table_row{
+	
+}
+.table_cell{
+	display: inline-block;
+	min-width: 28px;
+}
+.table_head_cel{
+	line-height: 28px;
+}
+.errorInf,.errorInfTd{
+	color:red;
+	font-size:10px;
+	line-height: 10px;
+	display: inline-block;
+	/* margin-left:110px; */
+}
+.errorInfTdPar{
+	position: relative;
+}
+.errorInfTd{
+	margin:0;
+	right:0;
+	position: absolute;
+}
+/******************************/
+.text_white{color:white;}
+.none{display: none}
+.over{overflow: auto;}
+.bor{border:1px solid #ccc;}
+.bor_none{border:none;}
+.float_left{float: left;}
+.float_right{float: right;}
+.block{display: block;}
+.iblock{display: inline-block;}
+.mt_4{margin-top:4px;}
+.mt_10{ margin-top:10px;}
+.mb_10{ margin-bottom:10px;}
+.ml_5{ margin-left:5px; }
+.ml_10{ margin-left:10px; }
+.ml_20{ margin-left:20px; }
+.mr_10{ margin-right:10px;}
+.mr_20{ margin-right:20px;}
+.mr_30{ margin-right:30px;}
+body .p_0{padding:0;}
+.pt_10{ padding-top:10px;}
+.pb_10{ padding-bottom:10px;}
+.pl_10{ padding-left:10px;}
+.pr_10{ padding-right:10px;}
+.text_center{ text-align: center;}
+.text_left{ text-align: left;}
+.text_right{ text-align: right;}
+.vertical_center{vertical-align: middle;}
+.w_20{width:20px;}
+.w_30{width:30px;}
+.w_50{width:50px;}
+.w_80{width:80px;}
+.w_120{width:120px;}
+.w_160{width:160px;}
+.w_50B{width:50%;}
+.w_100B{width:100%;}
+.H_28{height:28px;}
+.H_36{height:36px;}
+.H_50B{height:50%;}
+.H_100B{height:100%;}
+.line_H30{height:30px;line-height:30px;}
+.line_H36{height:36px;line-height: 36px;}
+.line_H24{height:24px;line-height: 24px;}
+

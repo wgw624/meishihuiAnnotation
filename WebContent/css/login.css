@@ -1,0 +1,165 @@
+@charset "utf-8";
+* {
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	font-family: Microsoft YaHei;
+}
+body.html{
+	margin:0;
+	padding:0;
+}
+.loginLogo img{
+	display: inline-block;
+	float:left;
+	margin-top:3px;
+}
+.loginBody{
+
+	overflow:auto;
+}
+.loginMain{
+	width:1200px;
+	margin:auto;
+}
+.loginLogo{
+	height:90px;
+	font-size: 30px;
+	margin-top:20px;
+}
+.loginLogoTitle{
+	display: inline-block;
+	margin-top:15px;
+	margin-left:30px;
+	font-weight: bold;
+}
+.loginCenter{
+	height:426px;
+	margin-top:92px;
+}
+.loginImg{
+	height:100%;
+	float:left;
+	width:800px;
+}
+.loginInf{
+	height:100%;
+	float:left;
+	width:352px;
+	margin-left:20px;
+	border: #f1f1f1 solid 1px;
+	box-shadow: #fbebd7 0 1px 10px;
+}
+.loginBottom{
+	margin-top:176px;
+	text-align: center;
+	font-size: 12px;
+}
+.loginInfTitle{
+	border-bottom:1px solid #ccc;
+	margin:20px 30px;
+	height:66px;
+}
+.loginInfTitleSpan{
+	display: block;
+	font-size:26px;
+	/* margin-top:10px; */
+	text-align: center;
+	line-height: 60px;
+	color: #666666;
+}
+.loginInpDiv{
+	margin:36px 30px 0 30px;
+	height:32px;
+}
+.loginInpDiv input{
+	width:100%;
+	height:100%;
+	padding-left:10px;
+	padding-right:10px;
+	border: #ccc solid 1px;
+	border-radius:4px;
+}
+.loginInpDiv input[type='text'],.loginInpDiv input[type='password']{
+	box-shadow: 40px 40px 40px 40px #ffffff inset;
+}
+.loginInpDiv input:FOCUS{
+	outline: none;
+    border: 1px solid #0066e6;
+}
+.loginInpDiv select{
+	height:100%;
+	width:100%;
+}
+.loginErrorInf{
+	color: red;
+	float:right;
+	margin-right: 30px;
+	font-size: 14px;
+}
+.loginBtn{
+	border: #144fe3 solid 1px;
+    color: #FFF;
+    border-radius: 3px;
+    font-size: 20px;
+    font: 20px "microsoft yahei";
+    font-family: "microsoft yahei";
+    background-color: #1F65F4;
+    background: -webkit-gradient(linear, 0 0, 0 bottom, from(#2169fb), to(#1d62f0));
+}
+@media screen and (max-width:1024px){
+	.loginMain_size{
+		width:915px;
+	}
+	.loginImg_size{
+		width:585px;
+	}
+	.loginInf_size{
+		width:290px;
+	}
+	.loginCenter_size{
+		height:312px;
+		margin-top:52px;
+	}
+	.loginBottom_size{
+		margin-top:142px;
+	}
+	.loginInfTitle_size{
+		margin:0 22px 20px 22px;
+		height:60px;
+	}
+	.loginInfTitleSpan_size{
+		font-size:20px;
+	}
+	.loginInpDiv_size{
+		margin:26px 22px 0 22px;
+	}
+}
+@media screen and (max-width:1600px) and (min-width:1025px){
+	.loginMain_size{
+		width:1080px;
+	}
+	.loginCenter_size{
+		height:397px;
+		margin-top:44px;
+	}
+	.loginImg_size{
+		width:746px;
+	}
+	.loginInf_size{
+		width:300px;
+	}
+	.loginInfTitle_size{
+		margin:30px 22px 20px 22px;
+		height:60px;
+	}
+	.loginInfTitleSpan_size{
+		font-size:20px;
+	}
+	.loginInpDiv_size{
+		margin:30px 22px 0 22px;
+	}
+	.loginBottom_size{
+		margin-top:142px;
+	}
+}

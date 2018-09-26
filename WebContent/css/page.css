@@ -1,0 +1,66 @@
+@charset "utf-8";
+/**待结账页面*/
+.waitSettlePage{
+	padding:10px 10px;
+}
+.waitSettleTable{
+	width:260px;
+	height:180px;
+	float:left;
+	border:1px solid #ccc;
+	margin-right:10px;
+}
+.tableNumber{
+	height: 36px;
+	width:100%;
+	text-align: center;
+	line-height: 36px;
+}
+.waitSettleContent{
+	height:100px;
+	width:100%;
+}
+.waitSettleBtn_div{
+	height: 36px;
+	width:100%;
+}
+.userTag{
+	width:40px;
+	height:40px;
+	float:left;
+	margin-right:5px;
+	background: url("../image/user.png") center center no-repeat;
+}
+.userName{
+	line-height: 40px;
+	margin-right:10px;
+}
+.userInf{
+	float:right;
+	margin-right:20px;
+}
+.userDropIcon{
+	width:10px;
+	height:10px;
+	display:inline-block;
+	background:url("../image/arrow.png") center center no-repeat;
+}
+/**订单管理主页面图标**/
+.orderMenuBack_span{
+	display: inline-block;
+	height:56px;
+	background-color: #FF9900;
+}
+.commonBtn{
+	height:26px;
+	width:68px;
+	background-color: #55aeec;
+	text-align: center;
+	line-height: 26px;
+	border: none;
+    border-radius: 2px;
+    color:white;
+}
+.commonDisableBtn{
+	background-color: #D6D6D6;
+}

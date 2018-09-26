@@ -1,0 +1,131 @@
+
+.leftMenu{
+    width:200px;
+    height:400px;
+    float:left;
+    color:white;
+    background-color: #333333;
+}
+.leftMenu ul{
+	margin:30px 0 0 10px;
+	font-size:18px;
+}
+.leftMenu ul li{
+	margin-top:10px;
+	cursor: pointer;
+	list-style-type: none;
+}
+.topHead{
+    height:40px;
+/*  background-color: #333333;
+    color:white; */
+    width:100%;
+}
+.rightMenu{
+    height:600px;
+    float:left;
+}
+.bodyContent{
+	border:1px solid #ccc;
+	margin:5px 5px 0 5px;
+	overflow: hidden;
+}
+.mainContent{
+	width:100%;
+	height:100%;
+	margin: 10px 0 0 10px;
+}
+.topBtnDiv,.showInfDiv{
+	width:100%;
+	height:32px;
+}
+.showInfDiv{
+	margin-bottom:10px;
+	line-height: 32px;
+}
+.logo{
+	margin-top: 10px;
+    margin-left: 10px;
+    font-size: 20px;
+    font-family: "Microsoft YaHei";
+}
+.common_a{
+	cursor: pointer;
+}
+.two_line_right .alignRight{
+	display: inline-block;
+	text-align: right;
+}
+.del_icon,.edit_icon{
+	width:12px;
+	height:12px;
+	cursor: pointer;
+	display: none;
+}
+.icon_span:HOVER{
+	background-color: #CABEFF;
+}
+.icon_span:HOVER i{
+	display: inline-block;
+}
+.del_icon{
+	background: url("../image/page/miniclose-black.png") center center no-repeat;
+	float:left;
+	
+}
+.edit_icon{
+	background: url("../image/page/edit_icon.png") center center no-repeat;
+	float:right;
+}
+.add_Icon,.subtract_Icon{
+	width:8px;
+	height:8px;
+	display: inline-block;
+	cursor: pointer;
+}
+.add_Icon{
+	background: url("../image/page/add.png") center center no-repeat;
+}
+.addIcon_big{
+	width:24px;
+	height:24px;
+	display: inline-block;
+	cursor: pointer;
+	background: url("../image/page/add_icon.png") center center no-repeat;
+}
+.subtract_Icon{
+	background: url("../image/page/subtract.png") center center no-repeat;
+}
+.span_hover i{
+	display:none;
+}
+.commonTab,.commonTabNoBorder{
+	width:100%;
+	cellspacing:0;
+	cellpadding:0;
+	border-collapse: collapse;
+	border-spacing: 10px;
+}
+.commonTab tr td,.commonTab tr th{
+	border:1px solid #ccc;
+}
+.commonTab tr td{
+	padding-left:10px;
+}
+.titleInf{
+	display: inline-block;
+	margin-right: 5px;
+	text-align: right;
+}
+/*×óÓÒÁ½ÁÐµÄtable**/
+.commonTabNoBorder{
+	border-collapse:separate;
+	border-spacing:0 14px
+}
+.commonTabNoBorder tr td{
+	border:none;
+}
+.commonTabNoBorder tr td:FIRST-CHILD {
+	text-align: right;
+	padding-right:10px;
+}
